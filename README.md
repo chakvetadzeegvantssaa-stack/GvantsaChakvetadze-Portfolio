@@ -69,7 +69,7 @@ Welcome! This is my QA portfolio showcasing my hands-on experience in **manual t
 
 ## 📬 Contact Me
 - **Email:** chakvetadzeegvantssaa@gmail.com  
-- **LinkedIn:** [[linkedin.com/in/yourname](https://linkedin.com/in/yourname)  ](https://www.linkedin.com/in/gvantsachakvetadze/)
+- **LinkedIn:** ](https://www.linkedin.com/in/gvantsachakvetadze/)
 
 
 
