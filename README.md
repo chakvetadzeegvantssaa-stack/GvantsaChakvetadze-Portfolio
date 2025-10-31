@@ -1,54 +1,88 @@
-QA-Manual-Portfolio/
-│
-├── README.md
-│
-├── 1_Test_Documentation/
-│   ├── Test_Cases/
-│   │   ├── Login_Test_Cases.xlsx
-│   │   ├── Registration_Test_Cases.md
-│   │   └── Qase_Export_TestCases.csv
-│   │
-│   ├── Test_Scenarios/
-│   │   ├── E-commerce_Scenarios.md
-│   │   └── MobileApp_Scenarios.md
-│   │
-│   ├── Checklists/
-│   │   ├── Smoke_Test_Checklist.xlsx
-│   │   ├── Regression_Checklist.xlsx
-│   │   └── Usability_Checklist.md
-│
-├── 2_Bug_Reports/
-│   ├── Bug_Reports_PDF/
-│   │   ├── Jira_BugReport_Example.pdf
-│   │   ├── ClickUp_BugReport_Sample.pdf
-│   │   └── Mobile_UI_Bugs.pdf
-│
-├── 3_Test_Artifacts/
-│   ├── API_Testing/
-│   │   ├── Postman_Collection.json
-│   │   ├── Postman_Screenshots/
-│   │   │   ├── Get_Users_Request.png
-│   │   │   └── Create_User_Response.png
-│   │
-│   ├── SQL_Queries/
-│   │   ├── Data_Validation_Queries.sql
-│   │   ├── User_Data_Checks.txt
-│   │
-│   ├── Accessibility_UI_Review/
-│       ├── UI_Review_Report.md
-│       ├── Screenshots/
-│           ├── Accessibility_Issues.png
-│           └── Layout_Bug.png
-│
-├── 4_Learning/
-│   ├── Notes_on_Testing_Methods.md
-│   ├── Tools_Practice_Summary.md
-│   └── Useful_Links_and_Resources.md
-│
-├── 5_Certificates/
-│   ├── Manual_QA_Certificate.pdf
-│   ├── QA_Pro_Practical_Training.pdf
-│   └── Additional_Workshop_Certificates.pdf
-│
-└── Contact/
-    └── Contact_Info.md
+QA Manual Portfolio
+“Quality is not an act, it’s a habit.”
+
+Welcome to my QA Portfolio — a space where I’m building my professional path as a Junior Manual QA Tester.
+Here, I’ve gathered my practical work: test cases, bug reports, checklists, and learning progress — everything that represents how I apply theory in real testing scenarios.
+
+This portfolio reflects not only what I’ve learned but how I work — with structure, precision, and a focus on continuous growth.
+
+🧩 About Me
+
+I’m a Junior Manual QA Tester with hands-on experience testing live web and mobile projects.
+I started with a strong foundation in QA theory and have developed practical skills through active project work and collaboration in real testing environments.
+
+My goal is simple — to deliver clean, reliable, and user-friendly software through careful testing and attention to every detail.
+
+Highlights of My Experience:
+
+Worked on several web and mobile applications as part of QA teams, focusing on functional, UI/UX, and regression testing.
+
+Reported over 100+ issues using Jira and ClickUp, including critical bugs and localization issues.
+
+Created structured test cases, checklists, and test scenarios for production-level systems.
+
+Participated in beta testing phases for products before public release.
+
+Contributed to QA processes for live client projects under NDA.
+
+📂 Portfolio Structure
+1. Test Documentation
+
+Organized files that show my testing workflow and process:
+
+Test_Cases/ – Test cases written in Excel / Qase / Markdown
+
+Test_Scenarios/ – High-level testing outlines
+
+Checklists/ – Smoke, regression, sanity, and usability checklists
+
+2. Bug Reports
+
+Bug_Reports/ – Sample bug reports (PDF / Jira export) showing structured defect tracking
+
+3. Test Artifacts
+
+Additional materials demonstrating my technical and practical QA knowledge:
+
+API_Testing/ – Postman collections, requests, and screenshots
+
+SQL_Queries/ – SQL scripts used for data validation
+
+Accessibility_UI_Review/ – Screens and notes from UI/UX testing
+
+4. Learning
+
+My QA course materials and self-learning notes
+
+Tools I’ve practiced with during projects
+
+5. Certificates
+
+Manual QA Fundamentals
+
+QA Manual Pro (Practical Course)
+
+Other workshops and certifications related to QA
+
+🧰 Tools & Technologies
+
+Test Management: Qase, TestRail, Jira
+Bug Tracking: Jira, ClickUp
+API Testing: Postman
+Database: MySQL
+Documentation: Confluence, Markdown, Google Sheets
+
+📬 Contact Me
+
+If you’d like to connect or discuss my QA work:
+📧 Email: [your.email@example.com
+]
+💼 LinkedIn: [[linkedin.com/in/yourname]](https://www.linkedin.com/in/gvantsachakvetadze/)
+
+
+🪶 Final Note
+
+As a Junior QA Manual Tester, I’m focused on learning, improving, and applying my skills in real-world environments.
+Each folder in this portfolio represents a step forward — from understanding QA fundamentals to practicing detailed testing on live projects.
+
+My approach is simple: stay curious, stay accurate, and never stop testing for quality.
