@@ -72,7 +72,7 @@ This portfolio reflects not only what I’ve learned but **how I work** — with
 
 ---
 
-## 🪶 
+## 
 
 As a Junior QA Manual Tester, I focus on **learning, improving, and applying my skills** in real-world environments.  
 Each folder in this portfolio represents a step forward — from understanding QA fundamentals to practicing detailed testing on live projects.
