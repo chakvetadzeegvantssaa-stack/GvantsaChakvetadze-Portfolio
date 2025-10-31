@@ -69,15 +69,8 @@ Welcome! This is my QA portfolio showcasing my hands-on experience in **manual t
 
 ## 📬 Contact Me
 - **Email:** chakvetadzeegvantssaa@gmail.com  
-- **LinkedIn:** [linkedin.com/in/yourname](https://linkedin.com/in/yourname)  
+- **LinkedIn:** [[linkedin.com/in/yourname](https://linkedin.com/in/yourname)  ](https://www.linkedin.com/in/gvantsachakvetadze/)
 
----
-
-## ⚡ GitHub Badges
-![GitHub top language](https://img.shields.io/github/languages/top/yourusername/yourrepo)  
-![GitHub repo size](https://img.shields.io/github/repo-size/yourusername/yourrepo)  
-![GitHub last commit](https://img.shields.io/github/last-commit/yourusername/yourrepo)  
- 
 
 
 
