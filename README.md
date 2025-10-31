@@ -7,39 +7,22 @@ This portfolio reflects not only what I’ve learned but **how I work** — with
 
 ---
 
-## 🧩 About Me
+# QA Portfolio
 
-I’m a Junior Manual QA Tester with hands-on experience testing **live web and mobile projects**.  
-I started with a strong foundation in QA theory and have developed practical skills through active project work and collaboration in real testing environments.
-
-**My goal:** Deliver clean, reliable, and user-friendly software through careful testing and attention to detail.
-
----
-
-## ✨ Highlights of My Experience
-
-- Worked on several web and mobile applications, focusing on **functional, UI/UX, and regression testing**.
-- Reported **100+ issues** using Jira and ClickUp, including critical bugs and localization issues.
-- Created **structured test cases, checklists, and test scenarios** for production-level systems.
-- Participated in **beta testing** phases for products before public release.
-- Contributed to QA processes for live client projects under NDA.
-
----
-
-## 📂 Portfolio Structure
+## Portfolio Structure
 
 ### 1. Test Documentation
-- `Test_Cases/` – Test cases written in Excel / Qase / Markdown  
-- `Test_Scenarios/` – High-level testing outlines  
-- `Checklists/` – Smoke, regression, sanity, and usability checklists  
+- **Test_Cases/** – Test cases written in Excel / Qase / Markdown  
+- **Test_Scenarios/** – High-level testing outlines  
+- **Checklists/** – Smoke, regression, sanity, and usability checklists  
 
 ### 2. Bug Reports
-- `Bug_Reports/` – Sample bug reports (PDF / Jira export) showing structured defect tracking  
+- **Bug_Reports/** – Sample bug reports (PDF / Jira export) showing structured defect tracking  
 
 ### 3. Test Artifacts
-- `API_Testing/` – Postman collections, requests, and screenshots  
-- `SQL_Queries/` – SQL scripts used for data validation  
-- `Accessibility_UI_Review/` – Screens and notes from UI/UX testing  
+- **API_Testing/** – Postman collections, requests, and screenshots  
+- **SQL_Queries/** – SQL scripts used for data validation  
+- **Accessibility_UI_Review/** – Screens and notes from UI/UX testing  
 
 ### 4. Learning
 - QA course materials and self-learning notes  
@@ -50,23 +33,19 @@ I started with a strong foundation in QA theory and have developed practical ski
 - QA Manual Pro (Practical Course)  
 - Other workshops and certifications related to QA  
 
----
-
 ## 🧰 Tools & Technologies
-
 - **Test Management:** Qaseio, Jira  
 - **Bug Tracking:** Jira, ClickUp  
 - **API Testing:** Postman  
 - **Database:** MySQL  
 - **Documentation:** Google Sheets  
 
----
-
 ## 📬 Contact Me
-
 If you’d like to connect or discuss my QA work:  
-- 📧 Email: chakvetadzeegvantssaa@gmail.com
-- 💼 LinkedIn: [linkedin.com/in/yourname](https://www.linkedin.com/in/gvantsachakvetadze/)  
+
+- **Email:** chakvetadzeegvantssaa@gmail.com  
+- **LinkedIn:** [linkedin.com/in/yourname](https://linkedin.com/in/yourname)
+
 
 ---
 
