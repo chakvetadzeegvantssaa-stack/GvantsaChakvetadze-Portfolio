@@ -54,18 +54,18 @@ I started with a strong foundation in QA theory and have developed practical ski
 
 ## 🧰 Tools & Technologies
 
-- **Test Management:** Qase, TestRail, Jira  
+- **Test Management:** Qaseio, Jira  
 - **Bug Tracking:** Jira, ClickUp  
 - **API Testing:** Postman  
 - **Database:** MySQL  
-- **Documentation:** Confluence, Markdown, Google Sheets  
+- **Documentation:** Google Sheets  
 
 ---
 
 ## 📬 Contact Me
 
 If you’d like to connect or discuss my QA work:  
-- 📧 Email: [your.email@example.com](mailto:your.email@example.com)  
+- 📧 Email: chakvetadzeegvantssaa@gmail.com
 - 💼 LinkedIn: [linkedin.com/in/yourname](https://www.linkedin.com/in/gvantsachakvetadze/)  
 
 ---
