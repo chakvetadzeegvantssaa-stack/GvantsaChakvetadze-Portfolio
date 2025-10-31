@@ -7,44 +7,78 @@ This portfolio reflects not only what I’ve learned but **how I work** — with
 
 ---
 
-# QA Portfolio
+# 👩‍💻 Gvantsa Chakvetadze — QA Portfolio
 
-## Portfolio Structure
+Welcome! This is my QA portfolio showcasing my hands-on experience in **manual testing, API testing, and bug reporting**.  
+
+---
+
+## 🗂 Portfolio Structure
 
 ### 1. Test Documentation
-- **Test_Cases/** – Test cases written in Excel / Qase / Markdown  
-- **Test_Scenarios/** – High-level testing outlines  
-- **Checklists/** – Smoke, regression, sanity, and usability checklists  
+- **[Test_Cases/](./Test_Cases)** – Test cases written in Excel / Qase / Markdown  
+- **[Test_Scenarios/](./Test_Scenarios)** – High-level testing outlines  
+- **[Checklists/](./Checklists)** – Smoke, regression, sanity, and usability checklists  
 
 ### 2. Bug Reports
-- **Bug_Reports/** – Sample bug reports (PDF / Jira export) showing structured defect tracking  
+- **[Bug_Reports/](./Bug_Reports)** – Sample bug reports (PDF / Jira export) showing structured defect tracking  
 
 ### 3. Test Artifacts
-- **API_Testing/** – Postman collections, requests, and screenshots  
-- **SQL_Queries/** – SQL scripts used for data validation  
-- **Accessibility_UI_Review/** – Screens and notes from UI/UX testing  
+- **[API_Testing/](./API_Testing)** – Postman collections, requests, and screenshots  
+- **[SQL_Queries/](./SQL_Queries)** – SQL scripts used for data validation  
+- **[Accessibility_UI_Review/](./Accessibility_UI_Review)** – Screens and notes from UI/UX testing  
 
 ### 4. Learning
-- QA course materials and self-learning notes  
+- [QA Course Materials](./Learning) and self-learning notes  
 - Tools I’ve practiced with during projects  
 
 ### 5. Certificates
 - Manual QA Fundamentals  
 - QA Manual Pro (Practical Course)  
-- Other workshops and certifications related to QA  
+- Other workshops and certifications  
+
+---
 
 ## 🧰 Tools & Technologies
-- **Test Management:** Qaseio, Jira  
-- **Bug Tracking:** Jira, ClickUp  
-- **API Testing:** Postman  
-- **Database:** MySQL  
-- **Documentation:** Google Sheets  
+| Category          | Tools / Platforms                     |
+|------------------|--------------------------------------|
+| Test Management   | Qaseio, Jira                          |
+| Bug Tracking      | Jira, ClickUp                         |
+| API Testing       | Postman                               |
+| Database          | MySQL                                 |
+| Documentation     | Google Sheets                         |
+
+---
+
+## 🎯 Skills
+- Manual QA Testing  
+- Test Case & Scenario Design  
+- Bug Reporting & Tracking  
+- API Testing (Postman)  
+- Basic SQL & Data Validation  
+
+---
+
+## 📸 Example Screenshots (Optional)
+> Include real screenshots or GIFs of your work. Upload them in a folder like `Screenshots/` and reference them here:  
+
+![Test Case Example](./Screenshots/test_case_example.png)  
+![Postman Collection Example](./Screenshots/postman_example.png)  
+
+---
 
 ## 📬 Contact Me
-If you’d like to connect or discuss my QA work:  
-
 - **Email:** chakvetadzeegvantssaa@gmail.com  
-- **LinkedIn:** [linkedin.com/in/yourname](https://linkedin.com/in/yourname)
+- **LinkedIn:** [linkedin.com/in/yourname](https://linkedin.com/in/yourname)  
+
+---
+
+## ⚡ GitHub Badges
+![GitHub top language](https://img.shields.io/github/languages/top/yourusername/yourrepo)  
+![GitHub repo size](https://img.shields.io/github/repo-size/yourusername/yourrepo)  
+![GitHub last commit](https://img.shields.io/github/last-commit/yourusername/yourrepo)  
+ 
+
 
 
 ---
