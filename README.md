@@ -22,13 +22,12 @@ I’m skilled at identifying software issues, analyzing system behavior, and com
 
 ### 🛠 **Test & Bug Management**
 - Jira  
-- TestRail  
-- Zephyr  
-- Trello  
+- Clickup
+- Trello 
+  
 
 ### 🗂 **Documentation & Reporting**
-- Confluence  
-- Google Sheets / Excel  
+- Google Sheets / Excel / Word
 
 ### 🌐 **Web & API Testing**
 - Chrome DevTools  
@@ -99,7 +98,7 @@ I’m skilled at identifying software issues, analyzing system behavior, and com
 ## 💬 **Contact Me**
 
 📧 **your.email@example.com**  
-💼 [**LinkedIn Profile**](https://linkedin.com/in/your-profile)  
+💼 https://www.linkedin.com/in/gvantsachakvetadze/
 🌍 [**GitHub Portfolio**](https://github.com/yourusername)
 
 ---
