@@ -1,4 +1,4 @@
-# QA Manual Portfolio
+# Gvantsa Chakvetadze - QA Manual Portfolio
 
 Welcome to my QA Portfolio — a space where I’m building my professional path as a **Junior Manual QA Tester**.  
 Here, I’ve gathered my practical work: test cases, bug reports, checklists, and learning progress — everything that represents how I apply theory in real testing scenarios.
@@ -7,11 +7,7 @@ This portfolio reflects not only what I’ve learned but **how I work** — with
 
 ---
 
-# 👩‍💻 Gvantsa Chakvetadze — QA Portfolio
 
-Welcome! This is my QA portfolio showcasing my hands-on experience in **manual testing, API testing, and bug reporting**.  
-
----
 
 ## 🗂 Portfolio Structure
 
