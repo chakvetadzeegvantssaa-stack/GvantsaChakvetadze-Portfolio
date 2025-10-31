@@ -55,7 +55,7 @@ This portfolio reflects not only what I’ve learned but **how I work** — with
 
 ---
 
-## 📸 Example Screenshots (Optional)
+## 📸 Screenshots 
 > Include real screenshots or GIFs of your work. Upload them in a folder like `Screenshots/` and reference them here:  
 
 ![Test Case Example](./Screenshots/test_case_example.png)  
@@ -72,7 +72,7 @@ This portfolio reflects not only what I’ve learned but **how I work** — with
 
 ---
 
-## 🪶 Final Note
+## 🪶 
 
 As a Junior QA Manual Tester, I focus on **learning, improving, and applying my skills** in real-world environments.  
 Each folder in this portfolio represents a step forward — from understanding QA fundamentals to practicing detailed testing on live projects.
