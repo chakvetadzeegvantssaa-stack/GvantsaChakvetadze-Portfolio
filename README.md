@@ -1,48 +1,42 @@
 # Gvantsa Chakvetadze - QA Manual Portfolio
 
-Welcome to my QA Portfolio — a space where I’m building my professional path as a **Junior Manual QA Tester**.  
-Here, I’ve gathered my practical work: test cases, bug reports, checklists, and learning progress — everything that represents how I apply theory in real testing scenarios.
+Welcome to my QA Manual Testing portfolio!  
+Here, you’ll find my practical work — test cases, bug reports, checklists, and learning progress — demonstrating how I apply QA theory in real projects.
 
-This portfolio reflects not only what I’ve learned but **how I work** — with structure, precision, and a focus on continuous growth.
+Each folder in this portfolio represents a step forward: from learning QA fundamentals to practicing detailed testing on live environments.
 
 ---
-
-
 
 ## 🗂 Portfolio Structure
 
-### 1. Test Documentation
-- **[Test_Cases/](./Test_Cases)** – Test cases written in Excel / Qase / Markdown  
-- **[Test_Scenarios/](./Test_Scenarios)** – High-level testing outlines  
-- **[Checklists/](./Checklists)** – Smoke, regression, sanity, and usability checklists  
+**1. Test Documentation**
+- **Test_Cases/** – Detailed test cases in Excel / Qase / Markdown  
+- **Test_Scenarios/** – High-level test scenarios and flows  
+- **Checklists/** – Smoke, regression, sanity, and usability checklists  
 
-### 2. Bug Reports
-- **[Bug_Reports/](./Bug_Reports)** – Sample bug reports (PDF / Jira export) showing structured defect tracking  
+**2. Bug Reports**
+- **Bug_Reports/** – Structured defect reports (PDF / Jira exports)  
 
-### 3. Test Artifacts
-- **[API_Testing/](./API_Testing)** – Postman collections, requests, and screenshots  
-- **[SQL_Queries/](./SQL_Queries)** – SQL scripts used for data validation  
-- **[Accessibility_UI_Review/](./Accessibility_UI_Review)** – Screens and notes from UI/UX testing  
+**3. Test Artifacts**
+- **API_Testing/** – Postman collections, API requests, screenshots  
+- **SQL_Queries/** – SQL scripts for data validation  
+- **Accessibility_UI_Review/** – Notes from UI/UX reviews  
 
-### 4. Learning
-- [QA Course Materials](./Learning) and self-learning notes  
-- Tools I’ve practiced with during projects  
+**4. Learning & Certificates**
+- QA course materials and self-learning notes  
+- Certificates: Manual QA Fundamentals, QA Manual Pro, other workshops
 
-### 5. Certificates
-- Manual QA Fundamentals  
-- QA Manual Pro (Practical Course)  
-- Other workshops and certifications  
+**5. Screenshots**
+- **Screenshots/** – Visual proof of work  
 
 ---
 
-## 🧰 Tools & Technologies
-| Category          | Tools / Platforms                     |
-|------------------|--------------------------------------|
-| Test Management   | Qaseio, Jira                          |
-| Bug Tracking      | Jira, ClickUp                         |
-| API Testing       | Postman                               |
-| Database          | MySQL                                 |
-| Documentation     | Google Sheets                         |
+## 🧰 Tools & Platforms
+- **Test Management:** Qase.io, Jira  
+- **Bug Tracking:** Jira, ClickUp  
+- **API Testing:** Postman  
+- **Database:** MySQL  
+- **Documentation:** Google Sheets  
 
 ---
 
@@ -51,36 +45,29 @@ This portfolio reflects not only what I’ve learned but **how I work** — with
 - Test Case & Scenario Design  
 - Bug Reporting & Tracking  
 - API Testing (Postman)  
-- Basic SQL & Data Validation  
+- SQL & Data Validation  
+- UI/UX Review  
 
 ---
 
-## 📸 Screenshots 
-> Include real screenshots or GIFs of your work. Upload them in a folder like `Screenshots/` and reference them here:  
+## 📸 Screenshots & Examples
 
-![Test Case Example](./Screenshots/test_case_example.png)  
-![Postman Collection Example](./Screenshots/postman_example.png)  
+**Test Case Example:**  
+![Login Test Case](Screenshots/TestCase_Login.png)
+
+**Postman API Example:**  
+![Get Users Request](Screenshots/Postman_GetUsers.gif)
+
+**Bug Report Example:**  
+[BR_Login_Bug.pdf](Bug_Reports/BR_Login_Bug.pdf)
 
 ---
 
 ## 📬 Contact Me
 - **Email:** chakvetadzeegvantssaa@gmail.com  
-- **LinkedIn:** (https://www.linkedin.com/in/gvantsachakvetadze/)
-
-
-
+- **LinkedIn:** [Gvantsa Chakvetadze](https://www.linkedin.com/in/gvantsachakvetadze/)
 
 ---
 
-## 
-
-As a Junior QA Manual Tester, I focus on **learning, improving, and applying my skills** in real-world environments.  
-Each folder in this portfolio represents a step forward — from understanding QA fundamentals to practicing detailed testing on live projects.
-
-**My approach:** stay curious, stay accurate, and never stop testing for quality.
-
----
-
-> *“Quality is not an act, it’s a habit.”*  
-> — Aristotle
-
+> “Quality is not an act, it’s a habit.” – Aristotle  
+I’m a Junior QA Manual Tester focused on accuracy, learning, and applying my skills to ensure software quality.
