@@ -70,4 +70,5 @@ Each folder in this portfolio represents a step forward: from learning QA fundam
 ---
 
 > “Quality is not an act, it’s a habit.” – Aristotle  
-I’m a Junior QA Manual Tester focused on accuracy, learning, and applying my skills to ensure software quality.
+
+
