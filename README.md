@@ -18,16 +18,13 @@ Each folder in this portfolio represents a step forward: from learning QA fundam
 - **Bug_Reports/** – Structured defect reports (PDF / Jira exports)  
 
 **3. Test Artifacts**
-- **API_Testing/** – Postman collections, API requests, screenshots  
-- **SQL_Queries/** – SQL scripts for data validation  
+- **API_Testing/** – Postman collections, API requests, screenshots    
 - **Accessibility_UI_Review/** – Notes from UI/UX reviews  
 
 **4. Learning & Certificates**
 - QA course materials and self-learning notes  
 - Certificates: Manual QA Fundamentals, QA Manual Pro, other workshops
 
-**5. Screenshots**
-- **Screenshots/** – Visual proof of work  
 
 ---
 
@@ -35,7 +32,6 @@ Each folder in this portfolio represents a step forward: from learning QA fundam
 - **Test Management:** Qase.io, Jira  
 - **Bug Tracking:** Jira, ClickUp  
 - **API Testing:** Postman  
-- **Database:** MySQL  
 - **Documentation:** Google Sheets  
 
 ---
@@ -70,5 +66,6 @@ Each folder in this portfolio represents a step forward: from learning QA fundam
 ---
 
 > “Quality is not an act, it’s a habit.” – Aristotle  
+
 
 
