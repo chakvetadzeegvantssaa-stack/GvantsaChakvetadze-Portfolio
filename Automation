@@ -1,13 +1,20 @@
-# QA Testing Portfolio
+# Selenium Automation - Invitation System
 
-Welcome to my Quality Assurance portfolio! This repository showcases my testing skills, including manual test documentation and basic automation examples.
+Junior QA learning automation. Translating manual test cases into Python + Selenium scripts.
 
-## 👤 About Me
+**Tests Included:**
+- ✅ Create invitation (positive)
+- ❌ Email validation (negative)
 
-I'm a QA professional with hands-on experience in manual testing and a growing skill set in test automation. I'm passionate about ensuring software quality and continuously learning new testing tools and techniques.
+**Skills:** Python, Selenium, unittest, Web automation basics
+```
 
-## 🎯 What You'll Find Here
+---
 
-- **Manual Testing:** Comprehensive test cases, bug reports, and test documentation
-- **Automation Testing:** Basic Selenium WebDriver scripts demonstrating fundamental automation skills
-- Real-world testing scenarios and problem-solving approaches
+
+```
+Selenium Test Automation Project
+
+Junior QA expanding into automation. Automated UI tests using Python & Selenium WebDriver.
+
+Skills: Python | Selenium | Test Automation
