@@ -82,3 +82,53 @@
 
 **Attachments:**  
 - [example-link.com](https://example-link.com)
+
+PIN Code Not Masked During Login
+
+Browser: Google Chrome 140.0.7339.128 (64-bit)
+OS: Windows 10 Home
+Device: Dell Laptop, Inspiron 5537
+Page: Login / PIN Verification
+Type: Security / Functional
+Priority: High
+Environment: Production / Staging
+Reproducibility: 100%
+
+Steps to Reproduce:
+
+Navigate to https://getbot.ai
+.
+
+Click Login or Sign In.
+
+Enter a registered email and request a PIN.
+
+Wait for the PIN to arrive in the email inbox.
+
+Type the PIN into the verification field.
+
+Observe the PIN digits displayed in plain text.
+
+Actual Result:
+
+All typed PIN digits are visible on-screen in plain text.
+
+Sensitive authentication credentials are exposed, allowing shoulder surfing, screenshots, or screen recordings.
+
+Expected Result:
+
+PIN input should be masked (dots • or asterisks *) by default.
+
+The actual digits should never be visible while typing.
+
+Attachments:
+
+(Optional screenshot of the input field, redacted for NDA compliance)
+
+Suggested Fix:
+
+Change the input field to type="password" or a secure masked input component.
+
+Ensure plaintext PIN is never displayed in the UI.
+
+Add automated tests to verify masking across browsers and devices.
