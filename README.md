@@ -44,18 +44,6 @@ Each folder in this portfolio represents a step forward: from learning QA fundam
 - SQL & Data Validation  
 - UI/UX Review  
 
----
-
-## 📸 Screenshots & Examples
-
-**Test Case Example:**  
-![Login Test Case](Screenshots/TestCase_Login.png)
-
-**Postman API Example:**  
-![Get Users Request](Screenshots/Postman_GetUsers.gif)
-
-**Bug Report Example:**  
-[BR_Login_Bug.pdf](Bug_Reports/BR_Login_Bug.pdf)
 
 ---
 
@@ -66,6 +54,7 @@ Each folder in this portfolio represents a step forward: from learning QA fundam
 ---
 
 > “Quality is not an act, it’s a habit.” – Aristotle  
+
 
 
 
