@@ -135,3 +135,175 @@ Admin is logged in and the Pop-Up Manager section is accessible.
 New Pop-Up is saved in the database, visible in the list, and active.  
 
 **Priority:** High  
+
+
+# QA Test Case – Layout of Chat Groups Section
+
+**Test Type:** Functional / UI  
+**Platform:** Web  
+**Device:** Dell Laptop, Inspiron 5537, DESKTOP-0OJ9KTC  
+**Operating System:** Windows 10 Home, Version 10.0.19045 Build 19045  
+**Browser:** Google Chrome, Version 140.0.7339.128 (64-bit)  
+**Environment:** Production / Development / Beta  
+**Reproducibility:** 100%  
+
+---
+
+## **Test Case ID**
+TC-001
+
+---
+
+## **Test Case Title**
+Verify Layout and Responsiveness of Chat Groups Section
+
+---
+
+## **Preconditions**
+- User is logged in.  
+- User has access to the chat dashboard.  
+
+---
+
+## **Test Steps**
+1. Navigate to [example-chat-app.com](https://example-chat-app.com) (placeholder for NDA).  
+2. Log in and access the chat dashboard.  
+3. Check the alignment of the Chat Groups list and the **"+ Add"** button.  
+4. Resize the browser window.  
+
+---
+
+## **Expected Result**
+- The Chat Groups list and **"+ Add"** button remain properly aligned.  
+- The layout remains fully responsive across all window sizes.  
+- No UI elements overlap or become inaccessible.  
+
+---
+
+## **Actual Result**
+- To be filled during testing.
+
+---
+
+## **Priority**
+Medium
+
+---
+
+## **Attachments**
+- None (NDA-compliant)
+
+
+# QA Test Case – SQL Injection Protection in PIN Code Field
+
+**Test Type:** Security / Functional  
+**Platform:** Web  
+**Device:** Dell Laptop, Inspiron 5537, DESKTOP-0OJ9KTC  
+**Operating System:** Windows 10 Home, Version 10.0.19045 Build 19045  
+**Browser:** Google Chrome, Version 140.0.7339.128 (64-bit)  
+**Environment:** Production / Development / Beta  
+**Reproducibility:** 100%  
+
+---
+
+## **Test Case ID**
+TC-002
+
+---
+
+## **Test Case Title**
+Verify SQL Injection Protection in PIN Verification Field
+
+---
+
+## **Preconditions**
+- User is on the login page.  
+- User has a valid email registered in the system.  
+- User has access to their email inbox to receive the PIN code.  
+
+---
+
+## **Test Steps**
+1. Navigate to [example-login.com](https://example-login.com) (placeholder for NDA).  
+2. Enter a valid email address (e.g., `user@example.com`) and request the PIN.  
+3. Receive the PIN via email.  
+4. In the PIN verification field, enter a SQL injection string: `"123' OR '1'='1"`.  
+5. Click **"Verify"** or **"Submit"**.  
+
+---
+
+## **Expected Result**
+- Verification fails.  
+- No database errors or sensitive information are exposed to the user.  
+- The system treats the input as an invalid PIN code.  
+- Application remains secure against SQL injection.  
+
+---
+
+## **Actual Result**
+- To be filled during testing.
+
+---
+
+## **Priority**
+High
+
+---
+
+## **Attachments**
+- None (NDA-compliant)
+
+# QA Test Case – Network Failure During Chat Message Sending
+
+**Test Type:** Functional / Error Handling  
+**Platform:** Web  
+**Device:** Dell Laptop, Inspiron 5537, DESKTOP-0OJ9KTC  
+**Operating System:** Windows 10 Home, Version 10.0.19045 Build 19045  
+**Browser:** Google Chrome, Version 140.0.7339.128 (64-bit)  
+**Environment:** Production / Development / Beta  
+**Reproducibility:** 100%  
+
+---
+
+## **Test Case ID**
+TC-003
+
+---
+
+## **Test Case Title**
+Verify Behavior When Network Fails During Chat Message Sending
+
+---
+
+## **Preconditions**
+- User is logged in.  
+- User is composing a chat message.  
+
+---
+
+## **Test Steps**
+1. While composing a message, simulate network loss (disable WiFi or disconnect).  
+2. Attempt to send the chat message.  
+
+---
+
+## **Expected Result**
+- An error message is displayed indicating connection failure.  
+- The message is saved as a draft or queued for retry.  
+- No credits or resources are deducted for the failed attempt.  
+- User receives clear feedback on network status.  
+
+---
+
+## **Actual Result**
+- To be filled during testing.
+
+---
+
+## **Priority**
+High
+
+---
+
+## **Attachments**
+- None (NDA-compliant)
