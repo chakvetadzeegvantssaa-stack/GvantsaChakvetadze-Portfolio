@@ -137,7 +137,7 @@ New Pop-Up is saved in the database, visible in the list, and active.
 **Priority:** High  
 
 
-# QA Test Case – Layout of Chat Groups Section
+## TC006  Layout of Chat Groups Section
 
 **Test Type:** Functional / UI  
 **Platform:** Web  
@@ -149,8 +149,6 @@ New Pop-Up is saved in the database, visible in the list, and active.
 
 ---
 
-## **Test Case ID**
-TC-001
 
 ---
 
@@ -194,7 +192,7 @@ Medium
 - None (NDA-compliant)
 
 
-# QA Test Case – SQL Injection Protection in PIN Code Field
+## TC007  SQL Injection Protection in PIN Code Field
 
 **Test Type:** Security / Functional  
 **Platform:** Web  
@@ -205,9 +203,6 @@ Medium
 **Reproducibility:** 100%  
 
 ---
-
-## **Test Case ID**
-TC-002
 
 ---
 
@@ -253,7 +248,7 @@ High
 ## **Attachments**
 - None (NDA-compliant)
 
-# QA Test Case – Network Failure During Chat Message Sending
+## TC008 Network Failure During Chat Message Sending
 
 **Test Type:** Functional / Error Handling  
 **Platform:** Web  
@@ -265,8 +260,6 @@ High
 
 ---
 
-## **Test Case ID**
-TC-003
 
 ---
 
@@ -307,3 +300,4 @@ High
 
 ## **Attachments**
 - None (NDA-compliant)
+
