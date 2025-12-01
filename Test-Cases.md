@@ -137,7 +137,7 @@ New Pop-Up is saved in the database, visible in the list, and active.
 **Priority:** High  
 
 
-## TC006  Layout of Chat Groups Section
+## TC006 - Layout of Chat Groups Section
 
 **Test Type:** Functional / UI  
 **Platform:** Web  
@@ -192,7 +192,7 @@ Medium
 - None (NDA-compliant)
 
 
-## TC007  SQL Injection Protection in PIN Code Field
+## TC007 - SQL Injection Protection in PIN Code Field
 
 **Test Type:** Security / Functional  
 **Platform:** Web  
@@ -248,7 +248,7 @@ High
 ## **Attachments**
 - None (NDA-compliant)
 
-## TC008 Network Failure During Chat Message Sending
+## TC008 - Network Failure During Chat Message Sending
 
 **Test Type:** Functional / Error Handling  
 **Platform:** Web  
@@ -300,4 +300,5 @@ High
 
 ## **Attachments**
 - None (NDA-compliant)
+
 
