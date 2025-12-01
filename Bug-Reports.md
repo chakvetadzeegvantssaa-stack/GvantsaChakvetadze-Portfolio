@@ -84,7 +84,7 @@
 - [example-link.com](https://example-link.com)
 
 
-# QA Bug Report – Security Issue: PIN Code Not Masked During Login
+## 4. Security Issue: PIN Code Not Masked During Login
 
 **Type:** Security Vulnerability  
 **Platform:** Web  
@@ -141,7 +141,7 @@
 - None (screenshots omitted for NDA compliance).
 
 
-  # QA Bug Report – File Upload Without Network Connection
+  ## 5. File Upload Without Network Connection
 
 **Type:** Functional / UX Issue  
 **Platform:** Web  
@@ -197,4 +197,5 @@
 
 ## **Attachments**
 - None (NDA-compliant).
+
 
