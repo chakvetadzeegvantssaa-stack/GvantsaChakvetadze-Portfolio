@@ -83,52 +83,118 @@
 **Attachments:**  
 - [example-link.com](https://example-link.com)
 
-PIN Code Not Masked During Login
 
-Browser: Google Chrome 140.0.7339.128 (64-bit)
-OS: Windows 10 Home
-Device: Dell Laptop, Inspiron 5537
-Page: Login / PIN Verification
-Type: Security / Functional
-Priority: High
-Environment: Production / Staging
-Reproducibility: 100%
+# QA Bug Report – Security Issue: PIN Code Not Masked During Login
 
-Steps to Reproduce:
+**Type:** Security Vulnerability  
+**Platform:** Web  
+**Device:** Dell Laptop, Inspiron 5537, DESKTOP-0OJ9KTC  
+**Operating System:** Windows 10 Home, Version 10.0.19045 Build 19045  
+**Browser:** Google Chrome, Version 140.0.7339.128 (64-bit)  
+**Environment:** Production / Development / Beta  
+**Reproducibility:** 100%  
 
-Navigate to https://getbot.ai
-.
+---
 
-Click Login or Sign In.
+## **Preconditions**
+- User is not logged in.  
+- User has a valid email registered in the system.  
+- User has access to their email inbox to receive the PIN code.  
 
-Enter a registered email and request a PIN.
+---
 
-Wait for the PIN to arrive in the email inbox.
+## **Steps to Reproduce**
+1. Navigate to [example-login.com](https://example-login.com) (placeholder for NDA).  
+2. Click **"Login"** or **"Sign In"**.  
+3. Enter a valid email address in the email field.  
+4. Click **"Continue"** or **"Send PIN"**.  
+5. Wait for the PIN code to arrive via email.  
+6. Check the email and note the PIN code.  
+7. Return to the login page and locate the PIN verification input field.  
+8. Begin typing the PIN code.  
+9. Observe the input as each digit is typed.  
 
-Type the PIN into the verification field.
+---
 
-Observe the PIN digits displayed in plain text.
+## **Actual Result**
+- The PIN code appears in plain text (e.g., `123456`) in the verification input field.  
+- All digits are fully visible as they are typed.  
+- The sensitive credential is exposed on screen, allowing anyone nearby to see and memorize it.  
 
-Actual Result:
+---
 
-All typed PIN digits are visible on-screen in plain text.
+## **Expected Result**
+- The PIN code should be masked immediately upon entry (displayed as dots `••••••` or asterisks).  
+- Each typed character should be replaced by a masking symbol.  
+- The PIN code must never appear in plain text at any point.  
+- This ensures protection against shoulder surfing, screen recording, or accidental screenshots.  
 
-Sensitive authentication credentials are exposed, allowing shoulder surfing, screenshots, or screen recordings.
+---
 
-Expected Result:
+## **Impact**
+- Exposing PIN codes creates a **security vulnerability**, as unauthorized users could access accounts by observing the screen.  
+- Masking sensitive authentication input is a **standard security requirement** for login flows.  
 
-PIN input should be masked (dots • or asterisks *) by default.
+---
 
-The actual digits should never be visible while typing.
+## **Attachments**
+- None (screenshots omitted for NDA compliance).
 
-Attachments:
 
-(Optional screenshot of the input field, redacted for NDA compliance)
+  # QA Bug Report – File Upload Without Network Connection
 
-Suggested Fix:
+**Type:** Functional / UX Issue  
+**Platform:** Web  
+**Device:** Dell Laptop, Inspiron 5537, DESKTOP-0OJ9KTC  
+**Operating System:** Windows 10 Home, Version 10.0.19045 Build 19045  
+**Browser:** Google Chrome, Version 140.0.7339.128 (64-bit)  
+**Environment:** Production / Development / Beta  
+**Reproducibility:** 100% (Occurs every time network is interrupted during upload)
 
-Change the input field to type="password" or a secure masked input component.
+---
 
-Ensure plaintext PIN is never displayed in the UI.
+## **Preconditions**
+- User is logged in.  
+- User has a file ready to upload.  
+- WiFi/network connection is turned OFF before attempting upload.  
 
-Add automated tests to verify masking across browsers and devices.
+---
+
+## **Steps to Reproduce**
+1. Turn OFF WiFi / disable network connection.  
+2. Open [example-chat-app.com](https://example-chat-app.com) (placeholder for NDA).  
+3. Navigate to the chat section.  
+4. Attempt to upload a file (image, document, etc.).  
+5. Observe any error messages or upload behavior.  
+6. Turn WiFi back ON / restore network connection.  
+7. Observe if the upload starts automatically.  
+
+---
+
+## **Actual Result**
+- The system allows the upload attempt without showing an immediate error.  
+- No indication that the network is disconnected.  
+- Upload does not queue or resume automatically when connection is restored.  
+- Upload appears stuck, with no way for the user to proceed.  
+
+---
+
+## **Expected Result**
+- An immediate error message should display:  
+  `"No network connection. Please check your internet and try again."`  
+  **OR**  
+- The upload should queue and start automatically when the network is restored.  
+- Users should receive clear feedback about network status.  
+- No credits or resources should be deducted for failed upload attempts.  
+
+---
+
+## **Impact**
+- Users may think the file is uploaded successfully, leading to confusion or potential data loss.  
+- Poor UX and lack of feedback reduces trust in the platform.  
+
+---
+
+## **Attachments**
+- None (NDA-compliant).
+
