@@ -50,10 +50,7 @@
 **Expected Result:**  
 - Clicking the button should open the email form or allow copying the address.
 
-**Recommendation:**  
-- If the button is intended to be clickable, it should trigger the email form. Otherwise, allow users to copy the email address directly.
 
-**Attachments:**  
 - [example-link.com](https://example-link.com)
 
 ---
@@ -197,5 +194,6 @@
 
 ## **Attachments**
 - None (NDA-compliant).
+
 
 
