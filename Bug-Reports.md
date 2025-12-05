@@ -10,9 +10,8 @@
 **Page:** Add option  
 **Type:** Non-Functional  
 **Priority:** Medium 
-**Severity:** Medium
-**Environment:** Production
-**Reproducibility:** 100%
+**Severity:** Medium 
+**Environment:** Production**Reproducibility:** 100%
 
 **Steps to Reproduce:**  
 1. Open [example-store.com](https://example-store.com).  
@@ -201,6 +200,7 @@
 
 ## **Attachments**
 - None (NDA-compliant).
+
 
 
 
