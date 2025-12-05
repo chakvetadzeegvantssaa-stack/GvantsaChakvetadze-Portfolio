@@ -1,4 +1,4 @@
-# 🧩 Bug Report Test Scenarios
+# 🧩 Test Scenarios
 
 ## TS-BR-001: Verify that all images have descriptive alt text
 **Objective:** Ensure every image on the website includes an appropriate `alt` attribute for accessibility and SEO compliance.  
@@ -110,3 +110,4 @@
 **Expected Result:**  
 - Appropriate validation error messages appear near each empty field.  
 - The form is not submitted until all required data is entered.  
+
