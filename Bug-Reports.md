@@ -9,8 +9,9 @@
 **Device:** Dell Laptop, Inspiron 5537  
 **Page:** Add option  
 **Type:** Non-Functional  
-**Priority:** Medium  
-**Environment:** Production / Development / Beta  
+**Priority:** Medium 
+**Severity:**
+**Environment:** Production
 **Reproducibility:** 100%
 
 **Steps to Reproduce:**  
@@ -194,6 +195,7 @@
 
 ## **Attachments**
 - None (NDA-compliant).
+
 
 
 
