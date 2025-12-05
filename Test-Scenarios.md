@@ -1,107 +1,104 @@
-# 🧩 Test Scenarios
+# **Test Scenarios**
 
-## TS-BR-001: Verify that all images have descriptive alt text
-**Objective:** Ensure every image on the website includes an appropriate `alt` attribute for accessibility and SEO compliance.  
+## **TS-BR-001 — Images Have Descriptive Alt Text**
+**Objective:**  
+Ensure all images include a relevant and descriptive `alt` attribute for accessibility and SEO.
+
 **Precondition:**  
-- The website is accessible in a browser.  
-- Developer tools or accessibility checker is available.  
-**Steps:**  
-1. Open the website home page and navigate through multiple pages.  
-2. Inspect image elements using DevTools or an accessibility tool.  
-3. Check whether each image contains a descriptive `alt` attribute.  
-**Expected Result:**  
-- Every image should include a relevant, descriptive `alt` text.  
-- No image should have an empty or missing `alt` attribute.  
+- Website is open in a browser  
+- DevTools or accessibility checker is available  
+
+**Test Scenario:**  
+Verify that all images across the website contain descriptive alt text and no image is missing an `alt` attribute.
 
 ---
 
-## TS-BR-002: Verify the functionality of the email button in the footer
-**Objective:** Validate that the email button in the footer correctly redirects to the user’s default email client with the prefilled recipient address.  
+## **TS-BR-002 — Footer Email Button Functionality**
+**Objective:**  
+Ensure the footer email button opens the default email client with the correct recipient address.
+
 **Precondition:**  
-- User is on the website’s footer section.  
-- A default email client (e.g., Outlook, Gmail) is configured on the device.  
-**Steps:**  
-1. Scroll to the footer section.  
-2. Click on the email button/link.  
-3. Observe whether a new email window opens with the correct “To” address.  
-**Expected Result:**  
-- Clicking the email button should open the default mail client.  
-- The “To” field should contain the correct recipient email address.  
+- User is on the footer section  
+- A default email client is configured  
+
+**Test Scenario:**  
+Check that clicking the email button launches the default mail client and auto-fills the correct "To" address.
 
 ---
 
-## TS-BR-003: Verify system behavior when Crisp integration returns an invalid JSON response
-**Objective:** Ensure the application handles malformed or empty JSON responses from the Crisp chat integration without breaking the UI.  
+## **TS-BR-003 — Crisp Integration Handles Invalid JSON**
+**Objective:**  
+Ensure the UI remains stable when the Crisp widget returns malformed or empty JSON.
+
 **Precondition:**  
-- Crisp chat widget is integrated and active.  
-- Developer or network tools are accessible.  
-**Steps:**  
-1. Trigger the Crisp chat widget to load.  
-2. Simulate or monitor a failed API response returning empty or invalid JSON.  
-3. Observe browser console logs and page behavior.  
-**Expected Result:**  
-- No visible UI errors or crashes occur.  
-- Console logs may record the error but should not interrupt normal site functionality.  
-- The chat widget either retries the request or fails gracefully.  
+- Crisp widget is active  
+- Network/DevTools are available  
+
+**Test Scenario:**  
+Verify that invalid JSON responses from Crisp do not cause UI errors, crashes, or display issues.
 
 ---
 
-# 🧪 Pop-Up Feature Test Scenarios
+# **Pop-Up Feature — Test Scenarios**
 
-## TS-POP-001: Verify that the pop-up appears when triggered
-**Objective:** Confirm that the pop-up is displayed when the trigger action (e.g., button click) is performed.  
+## **TS-POP-001 — Pop-Up Appears When Triggered**
+**Objective:**  
+Ensure the pop-up displays correctly when activated by the user.
+
 **Precondition:**  
-- User is on the webpage containing the pop-up trigger.  
-**Steps:**  
-1. Open the webpage.  
-2. Click on the designated button or link that should open the pop-up.  
-**Expected Result:**  
-- Pop-up window appears on the screen and overlays the page content.  
+- User is on the page containing the pop-up trigger  
+
+**Test Scenario:**  
+Confirm that clicking the pop-up trigger (button/link) causes the pop-up to appear.
 
 ---
 
-## TS-POP-002: Verify that the pop-up can be closed successfully
-**Objective:** Ensure that the user can close the pop-up via the close button (X) or by clicking outside the pop-up area.  
+## **TS-POP-002 — Pop-Up Can Be Closed Successfully**
+**Objective:**  
+Ensure the user can close the pop-up via the close button or by clicking outside the modal.
+
 **Precondition:**  
-- Pop-up is currently open.  
-**Steps:**  
-1. Click the close (“X”) button on the pop-up.  
-2. Alternatively, click outside the pop-up area.  
-**Expected Result:**  
-- Pop-up window closes immediately.  
-- Page returns to its normal state.  
+- Pop-up is currently open  
+
+**Test Scenario:**  
+Verify that the pop-up closes immediately and the page returns to normal after attempting to close it.
 
 ---
 
-## TS-POP-003: Verify that previously entered data remains after reopening the pop-up
-**Objective:** Confirm that user-entered data remains visible when the pop-up is closed and reopened (if expected).  
+## **TS-POP-003 — Data Persists After Reopening Pop-Up**
+**Objective:**  
+Ensure user-entered data persists if the feature is intended to save input temporarily.
+
 **Precondition:**  
-- User has entered valid data in the pop-up form.  
-**Steps:**  
-1. Open the pop-up and fill in all required fields.  
-2. Close the pop-up.  
-3. Reopen the pop-up.  
-**Expected Result:**  
-- Previously entered data should remain visible in the form fields (if the system is designed to save it).  
+- User has entered data in the pop-up form  
+
+**Test Scenario:**  
+Check that reopening the pop-up displays the previously entered data.
 
 ---
 
-## TS-POP-004: Verify that the pop-up resets data after closing if not designed to store information
-**Objective:** Ensure that form data inside the pop-up is cleared after closing, if data persistence is not part of functionality.  
+## **TS-POP-004 — Pop-Up Resets Data if Persistence is Not Expected**
+**Objective:**  
+Ensure the form clears all input when the pop-up is closed and reopened (if not designed to retain data).
+
 **Precondition:**  
-- Pop-up with form fields is available.  
-**Steps:**  
-1. Open the pop-up and fill out the form.  
-2. Close the pop-up window.  
-3. Reopen the pop-up.  
-**Expected Result:**  
-- All fields are empty; no previous data is shown.  
+- Pop-up with form fields is available  
+
+**Test Scenario:**  
+Confirm that form fields are empty each time the pop-up is reopened.
 
 ---
 
-## TS-POP-005: Verify that mandatory fields in the pop-up show validation errors when empty
-**Objective:** Validate that the pop-up form correctly displays error messages when required fields are left blank.  
+## **TS-POP-005 — Mandatory Field Validation**
+**Objective:**  
+Ensure required fields display error messages when left blank.
+
 **Precondition:**  
+- Pop-up contains mandatory form fields  
+
+**Test Scenario:**  
+Verify that leaving required fields empty triggers validation errors and prevents submission.
+
 - Pop-up form contains mandatory input fields.  
 **Steps:**  
 1. Open the pop-up form.  
@@ -110,4 +107,5 @@
 **Expected Result:**  
 - Appropriate validation error messages appear near each empty field.  
 - The form is not submitted until all required data is entered.  
+
 
