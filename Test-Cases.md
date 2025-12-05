@@ -6,7 +6,7 @@
 **Device:** Dell Laptop, Inspiron 5537, DESKTOP-0OJ9KTC  
 **Operating System:** Windows 10 Home, Version 10.0.19045 Build 19045  
 **Browser:** Google Chrome, Version 140.0.7339.128 (64-bit)  
-**Environment:** Production / Development / Beta  
+**Environment:** Development  
 **Reproducibility:** 100%  
 
 ---
@@ -48,6 +48,8 @@ Verify Layout and Responsiveness of Chat Groups Section
 ## **Priority**
 Medium
 
+## **severity**
+Medium
 ---
 
 ## **Attachments**
@@ -61,7 +63,7 @@ Medium
 **Device:** Dell Laptop, Inspiron 5537, DESKTOP-0OJ9KTC  
 **Operating System:** Windows 10 Home, Version 10.0.19045 Build 19045  
 **Browser:** Google Chrome, Version 140.0.7339.128 (64-bit)  
-**Environment:** Production / Development / Beta  
+**Environment:** Production  
 **Reproducibility:** 100%  
 
 ---
@@ -105,6 +107,9 @@ Verify SQL Injection Protection in PIN Verification Field
 ## **Priority**
 High
 
+## **severity**
+high
+
 ---
 
 ## **Attachments**
@@ -117,7 +122,7 @@ High
 **Device:** Dell Laptop, Inspiron 5537, DESKTOP-0OJ9KTC  
 **Operating System:** Windows 10 Home, Version 10.0.19045 Build 19045  
 **Browser:** Google Chrome, Version 140.0.7339.128 (64-bit)  
-**Environment:** Production / Development / Beta  
+**Environment:** Production
 **Reproducibility:** 100%  
 
 ---
@@ -156,6 +161,8 @@ Verify Behavior When Network Fails During Chat Message Sending
 ---
 
 ## **Priority**
+High
+## **severity**
 High
 
 ---
@@ -301,6 +308,7 @@ Admin is logged in and the Pop-Up Manager section is accessible.
 New Pop-Up is saved in the database, visible in the list, and active.  
 
 **Priority:** High  
+
 
 
 
