@@ -2,7 +2,7 @@
 **Test Case Suite:** Functional and Validation Scenarios  
 **Author:** QA Manual Tester  
 **Date:** 2025-11-13  
-**Application:** DressUp  
+**Application:** Examplewebsite  
 **Module:** Admin Panel → Pop-Up Manager  
 
 ---
@@ -300,5 +300,6 @@ High
 
 ## **Attachments**
 - None (NDA-compliant)
+
 
 
