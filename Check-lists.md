@@ -1,6 +1,6 @@
 # QA Test Checklists
 
-## Bug Reports
+
 
 ### TS-BR-001: Images Missing Alt Text
 - [ ] Website is accessible
@@ -59,3 +59,4 @@
 - [ ] Click Submit
 - [ ] Verify error messages appear
 - [ ] Verify form is not submitted
+
