@@ -10,7 +10,7 @@
 **Page:** Add option  
 **Type:** Non-Functional  
 **Priority:** Medium 
-**Severity:**
+**Severity:** Medium
 **Environment:** Production
 **Reproducibility:** 100%
 
@@ -36,8 +36,9 @@
 **Device:** Dell Laptop, Inspiron 5537  
 **Page:** Home Page  
 **Type:** Functional  
-**Priority:** Medium  
-**Environment:** Production / Development / Beta  
+**Priority:** Medium 
+**Severity:** Medium
+**Environment:** Production
 **Reproducibility:** 100%
 
 **Steps to Reproduce:**  
@@ -63,8 +64,9 @@
 **Device:** Dell Laptop, Inspiron 5537  
 **Page:** Home Page  
 **Type:** Functional  
-**Priority:** Medium  
-**Environment:** Production / Development / Beta  
+**Priority:** Medium 
+**Severity:** Medium
+**Environment:** Development
 **Reproducibility:** 100%
 
 **Steps to Reproduce:**  
@@ -88,8 +90,10 @@
 **Platform:** Web  
 **Device:** Dell Laptop, Inspiron 5537, DESKTOP-0OJ9KTC  
 **Operating System:** Windows 10 Home, Version 10.0.19045 Build 19045  
-**Browser:** Google Chrome, Version 140.0.7339.128 (64-bit)  
-**Environment:** Production / Development / Beta  
+**Browser:** Google Chrome, Version 140.0.7339.128 (64-bit) 
+**Priority:** High
+**Severity:** High
+**Environment:** Production 
 **Reproducibility:** 100%  
 
 ---
@@ -146,7 +150,9 @@
 **Device:** Dell Laptop, Inspiron 5537, DESKTOP-0OJ9KTC  
 **Operating System:** Windows 10 Home, Version 10.0.19045 Build 19045  
 **Browser:** Google Chrome, Version 140.0.7339.128 (64-bit)  
-**Environment:** Production / Development / Beta  
+**Priority:** High
+**Severity:** High
+**Environment:** Production
 **Reproducibility:** 100% (Occurs every time network is interrupted during upload)
 
 ---
@@ -195,6 +201,7 @@
 
 ## **Attachments**
 - None (NDA-compliant).
+
 
 
 
