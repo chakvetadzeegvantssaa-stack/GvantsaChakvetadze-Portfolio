@@ -1,305 +1,205 @@
 
-## TC006 - Layout of Chat Groups Section
+# Test Case Suite – Web Application
 
-**Test Type:** Functional / UI  
-**Platform:** Web  
-**Device:** Dell Laptop, Inspiron 5537, DESKTOP-0OJ9KTC  
-**Operating System:** Windows 10 Home, Version 10.0.19045 Build 19045  
-**Browser:** Google Chrome, Version 140.0.7339.128 (64-bit)  
-**Environment:** Development  
-**Reproducibility:** 100%  
+# TC006 – Verify Layout and Responsiveness of Chat Groups Section
 
----
+##Test Type##  
+Functional / UI
 
+##Preconditions##  
+- User is logged in  
+- User has access to the chat dashboard  
 
----
+##Test Steps##  
+1. Navigate to the chat application (NDA placeholder)  
+2. Log in with valid credentials  
+3. Open the chat dashboard  
+4. Verify the alignment of the Chat Groups list and the "+ Add" button  
+5. Resize the browser window to different screen sizes  
 
-## **Test Case Title**
-Verify Layout and Responsiveness of Chat Groups Section
+##Expected Result##  
+- Chat Groups list and "+ Add" button remain properly aligned  
+- Layout remains responsive across different window sizes  
+- No UI elements overlap or become inaccessible  
 
----
-
-## **Preconditions**
-- User is logged in.  
-- User has access to the chat dashboard.  
-
----
-
-## **Test Steps**
-1. Navigate to [example-chat-app.com](https://example-chat-app.com) (placeholder for NDA).  
-2. Log in and access the chat dashboard.  
-3. Check the alignment of the Chat Groups list and the **"+ Add"** button.  
-4. Resize the browser window.  
-
----
-
-## **Expected Result**
-- The Chat Groups list and **"+ Add"** button remain properly aligned.  
-- The layout remains fully responsive across all window sizes.  
-- No UI elements overlap or become inaccessible.  
-
----
-
-## **Actual Result**
-- To be filled during testing.
-
----
-
-## **Priority**
+##Priority##  
 Medium
 
-## **severity**
+##Severity##  
 Medium
----
-
-## **Attachments**
-- None (NDA-compliant)
-
-
-## TC007 - SQL Injection Protection in PIN Code Field
-
-**Test Type:** Security / Functional  
-**Platform:** Web  
-**Device:** Dell Laptop, Inspiron 5537, DESKTOP-0OJ9KTC  
-**Operating System:** Windows 10 Home, Version 10.0.19045 Build 19045  
-**Browser:** Google Chrome, Version 140.0.7339.128 (64-bit)  
-**Environment:** Production  
-**Reproducibility:** 100%  
 
 ---
 
----
+# TC007 – Verify SQL Injection Protection in PIN Verification Field
 
-## **Test Case Title**
-Verify SQL Injection Protection in PIN Verification Field
+##Test Type##  
+Security / Functional
 
----
+##Preconditions##  
+- User is on the login page  
+- User has a registered email address  
+- User can receive a PIN via email  
 
-## **Preconditions**
-- User is on the login page.  
-- User has a valid email registered in the system.  
-- User has access to their email inbox to receive the PIN code.  
+##Test Steps##  
+1. Navigate to the login page (NDA placeholder)  
+2. Enter a valid email address and request a PIN  
+3. Receive the PIN via email  
+4. In the PIN verification field, enter: 123' OR '1'='1  
+5. Click Verify / Submit  
 
----
+##Expected Result##  
+- PIN verification fails  
+- Input is treated as an invalid PIN  
+- No system, database, or security errors are displayed  
+- Application remains secure against SQL injection  
 
-## **Test Steps**
-1. Navigate to [example-login.com](https://example-login.com) (placeholder for NDA).  
-2. Enter a valid email address (e.g., `user@example.com`) and request the PIN.  
-3. Receive the PIN via email.  
-4. In the PIN verification field, enter a SQL injection string: `"123' OR '1'='1"`.  
-5. Click **"Verify"** or **"Submit"**.  
-
----
-
-## **Expected Result**
-- Verification fails.  
-- No database errors or sensitive information are exposed to the user.  
-- The system treats the input as an invalid PIN code.  
-- Application remains secure against SQL injection.  
-
----
-
-## **Actual Result**
-- To be filled during testing.
-
----
-
-## **Priority**
+##Priority##  
 High
 
-## **severity**
-high
-
----
-
-## **Attachments**
-- None (NDA-compliant)
-
-## TC008 - Network Failure During Chat Message Sending
-
-**Test Type:** Functional / Error Handling  
-**Platform:** Web  
-**Device:** Dell Laptop, Inspiron 5537, DESKTOP-0OJ9KTC  
-**Operating System:** Windows 10 Home, Version 10.0.19045 Build 19045  
-**Browser:** Google Chrome, Version 140.0.7339.128 (64-bit)  
-**Environment:** Production
-**Reproducibility:** 100%  
-
----
-
-
----
-
-## **Test Case Title**
-Verify Behavior When Network Fails During Chat Message Sending
-
----
-
-## **Preconditions**
-- User is logged in.  
-- User is composing a chat message.  
-
----
-
-## **Test Steps**
-1. While composing a message, simulate network loss (disable WiFi or disconnect).  
-2. Attempt to send the chat message.  
-
----
-
-## **Expected Result**
-- An error message is displayed indicating connection failure.  
-- The message is saved as a draft or queued for retry.  
-- No credits or resources are deducted for the failed attempt.  
-- User receives clear feedback on network status.  
-
----
-
-## **Actual Result**
-- To be filled during testing.
-
----
-
-## **Priority**
-High
-## **severity**
+##Severity##  
 High
 
 ---
 
-## **Attachments**
-- None (NDA-compliant)
+# TC008 – Verify Behavior When Network Fails During Chat Message Sending
 
+##Test Type##  
+Functional / Error Handling
 
-# [Admin] Pop-Up Manager → Create New Pop-Up  
-**Test Case Suite:** Functional and Validation Scenarios  
-**Author:** QA Manual Tester  
-**Date:** 2025-11-13  
-**Application:** Examplewebsite  
-**Module:** Admin Panel → Pop-Up Manager  
+##Preconditions##  
+- User is logged in  
+- User is composing a chat message  
+
+##Test Steps##  
+1. Start composing a chat message  
+2. Simulate network failure (disconnect internet connection)  
+3. Attempt to send the message  
+
+##Expected Result##  
+- User is notified about the network failure  
+- Message is saved as a draft or queued for retry  
+- No credits or resources are consumed  
+- User receives clear feedback on connection status  
+
+##Priority##  
+High
+
+##Severity##  
+High
 
 ---
 
-## TC001 — Open Pop-Up Manager List
+# Admin Panel – Pop-Up Manager
 
-**Description:**  
-Verify that clicking “Pop-Up Manager” opens a list of all existing Pop-Ups showing Name, Delivery Method, Payment Method, and Status.
+# TC001 – Open Pop-Up Manager List
 
-**Precondition:**  
-Admin is logged in and Pop-Up Manager menu is accessible.
+##Description##  
+Verify that clicking Pop-Up Manager displays a list of existing Pop-Ups.
 
-**Test Steps and Expected Results:**  
+##Preconditions##  
+Admin is logged in and has access to the Admin Panel.
+
+##Test Steps##  
 1. Navigate to Admin Panel → Pop-Up Manager  
-   - **Expected Result:** Admin panel loads and the Pop-Up Manager menu is visible.  
+2. Click Pop-Up Manager  
 
-2. Click “Pop-Up Manager”  
-   - **Expected Result:** A list of existing Pop-Ups is displayed with Name, Delivery Method, Payment Method, and Status columns.  
+##Expected Result##  
+- List of Pop-Ups is displayed  
+- Columns include Name, Delivery Method, Payment Method, and Status  
 
-**Postcondition:**  
-Pop-Up list is displayed and ready for further actions.  
-
-**Priority:** High  
-
----
-
-## TC002 — Search Existing Pop-Ups
-
-**Description:**  
-Verify that the search box returns correct Pop-Ups when a keyword is entered.
-
-**Precondition:**  
-At least one Pop-Up exists; Admin is logged in.
-
-**Test Steps and Expected Results:**  
-1. Enter a keyword in the search box.  
-   - **Expected Result:** Keyword is accepted without any error.  
-
-2. Click the “Search” button.  
-   - **Expected Result:** Only Pop-Ups matching the entered keyword are displayed.  
-
-**Postcondition:**  
-Filtered Pop-Up list is visible.  
-
-**Priority:** Medium  
+##Priority##  
+High
 
 ---
 
-## TC003 — Filter Pop-Ups
+# TC002 – Search Existing Pop-Ups
 
-**Description:**  
-Verify that Pop-Ups can be filtered by Status, Delivery Method, or Payment Method.
+##Description##  
+Verify search functionality returns correct Pop-Ups.
 
-**Precondition:**  
-Multiple Pop-Ups exist; Admin is logged in.
+##Preconditions##  
+- Admin is logged in  
+- At least one Pop-Up exists  
 
-**Test Steps and Expected Results:**  
-1. Click the “Filter” button.  
-   - **Expected Result:** Filter options are displayed.  
+##Test Steps##  
+1. Enter a keyword in the search field  
+2. Click Search  
 
-2. Select filter criteria (Status, Delivery Method, or Payment Method).  
-   - **Expected Result:** Selected criteria are highlighted and accepted.  
+##Expected Result##  
+- Only Pop-Ups matching the keyword are displayed  
 
-3. Click “Apply Filter.”  
-   - **Expected Result:** Pop-Up list updates and shows only records matching the selected filter.  
-
-**Postcondition:**  
-Filtered Pop-Up list is displayed.  
-
-**Priority:** Medium  
+##Priority##  
+Medium
 
 ---
 
-## TC004 — Edit Existing Pop-Up
+# TC003 – Filter Pop-Ups
 
-**Description:**  
-Verify that the admin can edit an existing Pop-Up and the changes are saved successfully.
+##Description##  
+Verify Pop-Ups can be filtered by available criteria.
 
-**Precondition:**  
-At least one Pop-Up exists; Admin is logged in.
+##Preconditions##  
+Multiple Pop-Ups exist.
 
-**Test Steps and Expected Results:**  
-1. Click the “Edit” icon next to an existing Pop-Up.  
-   - **Expected Result:** Edit form opens pre-filled with the current Pop-Up data.  
+##Test Steps##  
+1. Click Filter  
+2. Select filter criteria (Status, Delivery Method, or Payment Method)  
+3. Click Apply Filter  
 
-2. Modify Name, Description, or Trigger fields.  
-   - **Expected Result:** Changes are accepted without validation errors.  
+##Expected Result##  
+- Pop-Up list updates according to selected filter criteria  
 
-3. Click “Save.”  
-   - **Expected Result:** Pop-Up is updated successfully and changes are visible in the list.  
-
-**Postcondition:**  
-Pop-Up data is updated in the database.  
-
-**Priority:** High  
+##Priority##  
+Medium
 
 ---
 
-## TC005 — Create New Pop-Up (Georgian Language)
+# TC004 – Edit Existing Pop-Up
 
-**Description:**  
-Verify that the admin can create a new Pop-Up in Georgian language with all required fields, triggers, and Status set to ON.
+##Description##  
+Verify admin can edit an existing Pop-Up successfully.
 
-**Precondition:**  
-Admin is logged in and the Pop-Up Manager section is accessible.
+##Preconditions##  
+At least one Pop-Up exists.
 
-**Test Steps and Expected Results:**  
-1. Click “Create New Pop-Up.”  
-   - **Expected Result:** A blank form opens with all required fields visible.  
+##Test Steps##  
+1. Click Edit for an existing Pop-Up  
+2. Modify editable fields  
+3. Click Save  
 
-2. Enter a Name (maximum 100 characters).  
-   - **Expected Result:** Field accepts valid input without validation errors.  
+##Expected Result##  
+- Changes are saved successfully  
+- Updated Pop-Up data is visible in the list  
 
-3. Enter a Description (maximum 1000 characters).  
-   - **Expected Result:** Input is accepted; unsafe HTML or scripts are sanitized.  
+##Priority##  
+High
 
-4. Select at least one Delivery Method.  
-   - **Expected Result:** Selected method is highlighted and accepted.  
+---
 
-5. Select at least one Payment Method.  
-   - **Expected Result:** Selected method is highlighted and accepted.  
+# TC005 – Create New Pop-Up (Georgian Language)
 
-6. Ensure Status is set to ON.  
-   - **Expected Result:** Pop-Up will be active after saving.  
+##Description##  
+Verify admin can create a new Pop-Up in Georgian language.
+
+##Preconditions##  
+Admin is logged in and Pop-Up Manager is accessible.
+
+##Test Steps##  
+1. Click Create New Pop-Up  
+2. Enter valid Name and Description  
+3. Select at least one Delivery Method  
+4. Select at least one Payment Method  
+5. Set Status to ON  
+6. Click Save  
+
+##Expected Result##  
+- New Pop-Up is created successfully  
+- Pop-Up appears in the list with correct details  
+- Status is active  
+
+##Priority##  
+High
+will be active after saving.  
 
 7. Click “Save.”  
    - **Expected Result:** Pop-Up is saved successfully and appears in the Pop-Up list with correct details.  
@@ -308,6 +208,7 @@ Admin is logged in and the Pop-Up Manager section is accessible.
 New Pop-Up is saved in the database, visible in the list, and active.  
 
 **Priority:** High  
+
 
 
 
