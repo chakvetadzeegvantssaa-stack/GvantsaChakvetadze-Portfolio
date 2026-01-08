@@ -50,7 +50,6 @@ The issue occurs when a chrome.runtime.onMessage listener returns true to indica
 Screen recording: AI Plagiarism – 20 December 2025
 ---
 
-# QA Bug Reports – Portfolio
 
 # 2. MobX-State-Tree Error Occurs When Accessing a Document Model After It Has Been Removed from the State Tree
 
@@ -318,6 +317,7 @@ Screen recording: Jam – Console logs, network requests, and runtime errors
 
 ## **Attachments**
 - None (NDA-compliant).
+
 
 
 
