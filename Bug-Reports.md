@@ -6,37 +6,20 @@
 
 # 1. Async Message Listener Fails, Preventing AI Prediction & Plagiarism Results
 
-# Browser
-Google Chrome 140.0.7339.128 (64-bit)
+**Browser**Google Chrome 140.0.7339.128 (64-bit)
+**OS**Windows 10 Home (10.0.19045, Build 19045)
+**Device**Dell Laptop, Inspiron 5537 (DESKTOP-0OJ9KTC)
+**Feature / Page**GetBot AI Web Extension – AI Prediction / AI Plagiarism
+**Type**Functional
+**Priority**High
+**Severity**High
+**Environment**Production
+**Reproducibility**100%
 
-# OS
-Windows 10 Home (10.0.19045, Build 19045)
-
-# Device
-Dell Laptop, Inspiron 5537 (DESKTOP-0OJ9KTC)
-
-# Feature / Page
-GetBot AI Web Extension – AI Prediction / AI Plagiarism
-
-# Type
-Functional
-
-# Priority
-High
-
-# Severity
-High
-
-# Environment
-Production
-
-# Reproducibility
-100%
-
-# Description
+**Description**
 While using the GetBot AI web extension, features that rely on asynchronous Chrome messaging (AI Prediction and AI Plagiarism) fail to return results. The browser console logs an async listener error indicating that the message channel closes before a response is received.
 
-# Steps to Reproduce
+**Steps to Reproduce**
 1. Open the GetBot AI Web Extension
 2. Log in with valid credentials
 3. Navigate to the AI Prediction page
@@ -46,26 +29,26 @@ While using the GetBot AI web extension, features that rely on asynchronous Chro
 7. Open DevTools → Console
 8. Observe the console error and missing results
 
-# Expected Result
+**Expected Result**
 - Async listener processes the request correctly
 - AI Prediction results are displayed
 - AI Plagiarism percentage and source references are displayed
 - No console errors appear
 
-# Actual Result
+**Actual Result**
 - Console displays:
   Uncaught (in promise) Error: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received
 - AI Prediction or AI Plagiarism results may not display
 
-# Impact
+**Impact**
 - Core AI features fail to return results
 - Users may see blank or incomplete outputs
 - Console errors indicate unstable extension messaging behavior
 
-# Possible Cause
+**Possible Cause**
 The issue occurs when a chrome.runtime.onMessage listener returns true to indicate an asynchronous response but sendResponse() is not executed before the message channel closes. This may be caused by unhandled exceptions, missing response calls, popup closure, or race conditions.
 
-# Evidence
+**Evidence**
 Screen recording: AI Plagiarism – 20 December 2025
 
 ---
@@ -269,6 +252,7 @@ Screen recording: AI Plagiarism – 20 December 2025
 
 ## **Attachments**
 - None (NDA-compliant).
+
 
 
 
