@@ -3,15 +3,16 @@
 ---
 # 1. Async Message Listener Fails, Preventing AI Prediction & Plagiarism Results
 
-**Browser:**  Google Chrome 140.0.7339.128 (64-bit)
-**OS:**  Windows 10 Home (10.0.19045, Build 19045)
-**Device:**  Dell Laptop, Inspiron 5537 (DESKTOP-0OJ9KTC)
+**Browser:** Google Chrome 140.0.7339.128 (64-bit)  
+**OS:** Windows 10 Home  
+**Device:** Dell Laptop, Inspiron 5537  
+**Page:** Add option  
+**Type:** Non-Functional  
+**Priority:** Medium 
+**Severity:** Medium 
+**Environment:** Production 
+**Reproducibility:** 100%
 **Feature / Page:**  GetBot AI Web Extension – AI Prediction / AI Plagiarism
-**Type:**  Functional
-**Priority:**  High
-**Severity:**  High
-**Environment:**  Production
-**Reproducibility:**  100%
 
 **Description**
 While using the GetBot AI web extension, features that rely on asynchronous Chrome messaging (AI Prediction and AI Plagiarism) fail to return results. The browser console logs an async listener error indicating that the message channel closes before a response is received.
@@ -249,6 +250,7 @@ Screen recording: AI Plagiarism – 20 December 2025
 
 ## **Attachments**
 - None (NDA-compliant).
+
 
 
 
