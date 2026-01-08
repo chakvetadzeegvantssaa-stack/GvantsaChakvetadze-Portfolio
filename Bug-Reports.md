@@ -48,6 +48,74 @@ The issue occurs when a chrome.runtime.onMessage listener returns true to indica
 
 **Evidence**
 Screen recording: AI Plagiarism – 20 December 2025
+---
+
+# QA Bug Reports – Portfolio
+
+# 2. MobX-State-Tree Error Occurs When Accessing a Document Model After It Has Been Removed from the State Tree
+
+**Browser:** Google Chrome 140.0.7339.128 (64-bit)  
+**OS:** Windows 10 Home  
+**Device:** Dell Laptop, Inspiron 5537  
+**Page:** Add option  
+**Type:** Non-Functional  
+**Priority:** Medium 
+**Severity:** Medium 
+**Environment:** Production 
+**Reproducibility:** 100%
+
+**Description**
+While using the GetBot AI web application, a MobX-State-Tree (MST) runtime error occurs indicating that the application is attempting to read from or write to a model instance that is no longer part of the active state tree.
+
+The browser console logs the following error:
+[mobx-state-tree] You are trying to read or write to an object that is no longer part of a state tree
+
+The error references an AnonymousModel that was previously located at:
+ /tabStates/643341452/injectionLifecycle/documents/52C3FD6191B26A1414E253E952462CD7
+
+This indicates that a document model was removed from the documents collection, but the application logic continues to access its properties (for example, id) after removal. MobX-State-Tree enforces strict lifecycle rules, and accessing detached models results in runtime errors.
+
+**Steps to Reproduce**
+1. Navigate to GetBot AI – ChatGPT AI Assistant (GPT-4o, Claude 3.5, Gemini 1.5 & AI Tools)
+2. Log in with valid credentials
+3. Open a feature that creates or processes documents (e.g., AI Prediction, AI Plagiarism, or similar workflow)
+4. Trigger an action that removes or replaces a document from the state  
+   (e.g., switching tabs, copying text, refreshing data, or re-running a check)
+5. Open DevTools → Console
+6. Observe the error
+
+**Expected Result**
+- Application does not attempt to access a document after it has been removed from the MobX-State-Tree
+- All references to removed models are cleared or invalidated
+- No MobX-State-Tree runtime errors appear in the console
+- UI remains stable and responsive
+
+**Actual Result**
+- Console displays a MobX-State-Tree runtime error indicating access to a detached model
+- Application attempts to read properties (such as id) of a removed document
+- UI behavior may become inconsistent or unstable
+
+**Impact**
+- Risk of unstable UI behavior
+- Features relying on document lifecycle (AI Prediction, AI Plagiarism, chat-related flows) may fail silently
+- Console errors indicate improper state cleanup
+- Reduces reliability and maintainability of state management
+
+**Possible Root Cause**
+- References to MST models are not cleared after removal from the state tree
+- Asynchronous operations attempt to access models after they are detached
+- Optional or reference fields are accessed without verifying model existence
+
+**Suggested Fix / Developer Notes**
+- Ensure all references to document models are cleared immediately after removal
+- Avoid accessing MST instances after destroy, detach, or removal from collections
+- Use optional references (types.maybe(types.reference(...))) and validate existence before access
+- Guard async logic to confirm the model is still part of the tree
+- Use onSnapshot or onPatch to debug lifecycle timing issues
+
+**Evidence**
+Screen recording: Jam – Console logs, network requests, and runtime errors
+
 
 ---
 
@@ -250,6 +318,7 @@ Screen recording: AI Plagiarism – 20 December 2025
 
 ## **Attachments**
 - None (NDA-compliant).
+
 
 
 
