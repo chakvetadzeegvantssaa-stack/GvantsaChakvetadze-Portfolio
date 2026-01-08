@@ -2,7 +2,75 @@
 
 ---
 
-## 1. Images Missing Alt Text
+# QA Bug Reports – Portfolio
+
+# 1. Async Message Listener Fails, Preventing AI Prediction & Plagiarism Results
+
+# Browser
+Google Chrome 140.0.7339.128 (64-bit)
+
+# OS
+Windows 10 Home (10.0.19045, Build 19045)
+
+# Device
+Dell Laptop, Inspiron 5537 (DESKTOP-0OJ9KTC)
+
+# Feature / Page
+GetBot AI Web Extension – AI Prediction / AI Plagiarism
+
+# Type
+Functional
+
+# Priority
+High
+
+# Severity
+High
+
+# Environment
+Production
+
+# Reproducibility
+100%
+
+# Description
+While using the GetBot AI web extension, features that rely on asynchronous Chrome messaging (AI Prediction and AI Plagiarism) fail to return results. The browser console logs an async listener error indicating that the message channel closes before a response is received.
+
+# Steps to Reproduce
+1. Open the GetBot AI Web Extension
+2. Log in with valid credentials
+3. Navigate to the AI Prediction page
+4. Enter valid input text
+5. Click Generate Prediction
+6. Copy the generated prediction text or perform an AI Plagiarism check using copied text
+7. Open DevTools → Console
+8. Observe the console error and missing results
+
+# Expected Result
+- Async listener processes the request correctly
+- AI Prediction results are displayed
+- AI Plagiarism percentage and source references are displayed
+- No console errors appear
+
+# Actual Result
+- Console displays:
+  Uncaught (in promise) Error: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received
+- AI Prediction or AI Plagiarism results may not display
+
+# Impact
+- Core AI features fail to return results
+- Users may see blank or incomplete outputs
+- Console errors indicate unstable extension messaging behavior
+
+# Possible Cause
+The issue occurs when a chrome.runtime.onMessage listener returns true to indicate an asynchronous response but sendResponse() is not executed before the message channel closes. This may be caused by unhandled exceptions, missing response calls, popup closure, or race conditions.
+
+# Evidence
+Screen recording: AI Plagiarism – 20 December 2025
+
+---
+
+##  Images Missing Alt Text
 
 **Browser:** Google Chrome 140.0.7339.128 (64-bit)  
 **OS:** Windows 10 Home  
@@ -29,7 +97,7 @@
 
 ---
 
-## 2. Footer Email Button Not Functioning
+##  Footer Email Button Not Functioning
 
 **Browser:** Google Chrome 140.0.7339.128 (64-bit)  
 **OS:** Windows 10 Home  
@@ -57,7 +125,7 @@
 
 ---
 
-## 3. SyntaxError During Crisp Chat Integration
+##  SyntaxError During Crisp Chat Integration
 
 **Browser:** Google Chrome 140.0.7339.128 (64-bit)  
 **OS:** Windows 10 Home  
@@ -84,7 +152,7 @@
 - [example-link.com](https://example-link.com)
 
 
-## 4. Security Issue: PIN Code Not Masked During Login
+##  Security Issue: PIN Code Not Masked During Login
 
 **Type:** Security Vulnerability  
 **Platform:** Web  
@@ -143,7 +211,7 @@
 - None (screenshots omitted for NDA compliance).
 
 
-  ## 5. File Upload Without Network Connection
+  ##  File Upload Without Network Connection
 
 **Type:** Functional / UX Issue  
 **Platform:** Web  
@@ -201,6 +269,7 @@
 
 ## **Attachments**
 - None (NDA-compliant).
+
 
 
 
