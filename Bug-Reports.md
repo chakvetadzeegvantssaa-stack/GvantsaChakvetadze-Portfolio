@@ -119,7 +119,7 @@ Screen recording: Jam – Console logs, network requests, and runtime errors
 
 ---
 
-##  Images Missing Alt Text
+## 3. Images Missing Alt Text
 
 **Browser:** Google Chrome 140.0.7339.128 (64-bit)  
 **OS:** Windows 10 Home  
@@ -146,7 +146,7 @@ Screen recording: Jam – Console logs, network requests, and runtime errors
 
 ---
 
-##  Footer Email Button Not Functioning
+## 4. Footer Email Button Not Functioning
 
 **Browser:** Google Chrome 140.0.7339.128 (64-bit)  
 **OS:** Windows 10 Home  
@@ -174,7 +174,7 @@ Screen recording: Jam – Console logs, network requests, and runtime errors
 
 ---
 
-##  SyntaxError During Crisp Chat Integration
+## 5. SyntaxError During Crisp Chat Integration
 
 **Browser:** Google Chrome 140.0.7339.128 (64-bit)  
 **OS:** Windows 10 Home  
@@ -201,7 +201,7 @@ Screen recording: Jam – Console logs, network requests, and runtime errors
 - [example-link.com](https://example-link.com)
 
 
-##  Security Issue: PIN Code Not Masked During Login
+## 6. Security Issue: PIN Code Not Masked During Login
 
 **Type:** Security Vulnerability  
 **Platform:** Web  
@@ -260,7 +260,7 @@ Screen recording: Jam – Console logs, network requests, and runtime errors
 - None (screenshots omitted for NDA compliance).
 
 
-  ##  File Upload Without Network Connection
+ ## 7. File Upload Without Network Connection
 
 **Type:** Functional / UX Issue  
 **Platform:** Web  
@@ -318,6 +318,7 @@ Screen recording: Jam – Console logs, network requests, and runtime errors
 
 ## **Attachments**
 - None (NDA-compliant).
+
 
 
 
