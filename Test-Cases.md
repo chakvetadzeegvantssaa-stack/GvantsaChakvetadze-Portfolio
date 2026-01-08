@@ -47,44 +47,44 @@ Security / Functional
 4. In the PIN verification field, enter: 123' OR '1'='1  
 5. Click Verify / Submit  
 
-##Expected Result##  
+## Expected Result ##  
 - PIN verification fails  
 - Input is treated as an invalid PIN  
 - No system, database, or security errors are displayed  
 - Application remains secure against SQL injection  
 
-##Priority##  
+## Priority ##  
 High
 
-##Severity##  
+## Severity ##  
 High
 
 ---
 
 # TC008 – Verify Behavior When Network Fails During Chat Message Sending
 
-##Test Type##  
+## Test Type ##  
 Functional / Error Handling
 
-##Preconditions##  
+## Preconditions ##  
 - User is logged in  
 - User is composing a chat message  
 
-##Test Steps##  
+## Test Steps ##  
 1. Start composing a chat message  
 2. Simulate network failure (disconnect internet connection)  
 3. Attempt to send the message  
 
-##Expected Result##  
+## Expected Result ##  
 - User is notified about the network failure  
 - Message is saved as a draft or queued for retry  
 - No credits or resources are consumed  
 - User receives clear feedback on connection status  
 
-##Priority##  
+## Priority ##  
 High
 
-##Severity##  
+## Severity ##  
 High
 
 ---
@@ -93,17 +93,17 @@ High
 
 # TC001 – Open Pop-Up Manager List
 
-##Description##  
+## Description ##  
 Verify that clicking Pop-Up Manager displays a list of existing Pop-Ups.
 
-##Preconditions##  
+## Preconditions ##  
 Admin is logged in and has access to the Admin Panel.
 
-##Test Steps##  
+## Test Steps ##  
 1. Navigate to Admin Panel → Pop-Up Manager  
 2. Click Pop-Up Manager  
 
-##Expected Result##  
+## Expected Result ##  
 - List of Pop-Ups is displayed  
 - Columns include Name, Delivery Method, Payment Method, and Status  
 
@@ -114,77 +114,77 @@ High
 
 # TC002 – Search Existing Pop-Ups
 
-##Description##  
+## Description ##  
 Verify search functionality returns correct Pop-Ups.
 
-##Preconditions##  
+## Preconditions ##  
 - Admin is logged in  
 - At least one Pop-Up exists  
 
-##Test Steps##  
+## Test Steps ##  
 1. Enter a keyword in the search field  
 2. Click Search  
 
-##Expected Result##  
+## Expected Result ##  
 - Only Pop-Ups matching the keyword are displayed  
 
-##Priority##  
+## Priority ##  
 Medium
 
 ---
 
 # TC003 – Filter Pop-Ups
 
-##Description##  
+## Description ##  
 Verify Pop-Ups can be filtered by available criteria.
 
-##Preconditions##  
+## Preconditions ##  
 Multiple Pop-Ups exist.
 
-##Test Steps##  
+## Test Steps ##  
 1. Click Filter  
 2. Select filter criteria (Status, Delivery Method, or Payment Method)  
 3. Click Apply Filter  
 
-##Expected Result##  
+## Expected Result ##  
 - Pop-Up list updates according to selected filter criteria  
 
-##Priority##  
+## Priority ##  
 Medium
 
 ---
 
 # TC004 – Edit Existing Pop-Up
 
-##Description##  
+## Description ##  
 Verify admin can edit an existing Pop-Up successfully.
 
-##Preconditions##  
+## Preconditions##  
 At least one Pop-Up exists.
 
-##Test Steps##  
+## Test Steps ##  
 1. Click Edit for an existing Pop-Up  
 2. Modify editable fields  
 3. Click Save  
 
-##Expected Result##  
+## Expected Result ##  
 - Changes are saved successfully  
 - Updated Pop-Up data is visible in the list  
 
-##Priority##  
+## Priority ##  
 High
 
 ---
 
 # TC005 – Create New Pop-Up (Georgian Language)
 
-##Description##  
+## Description ##  
 Verify admin can create a new Pop-Up in Georgian language.
 
-##Preconditions##  
+## Preconditions ##  
 Admin is logged in and Pop-Up Manager is accessible.
 
-##Test Steps##  
+## Test Steps ##  
 1. Click Create New Pop-Up  
 2. Enter valid Name and Description  
 3. Select at least one Delivery Method  
@@ -192,22 +192,22 @@ Admin is logged in and Pop-Up Manager is accessible.
 5. Set Status to ON  
 6. Click Save  
 
-##Expected Result##  
+## Expected Result ##  
 - New Pop-Up is created successfully  
 - Pop-Up appears in the list with correct details  
 - Status is active  
 
-##Priority##  
+## Priority ##  
 High
 will be active after saving.  
 
-7. Click “Save.”  
-   - **Expected Result:** Pop-Up is saved successfully and appears in the Pop-Up list with correct details.  
+---
 
-**Postcondition:**  
+** Postcondition: **  
 New Pop-Up is saved in the database, visible in the list, and active.  
 
 **Priority:** High  
+
 
 
 
