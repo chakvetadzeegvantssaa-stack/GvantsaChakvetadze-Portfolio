@@ -3,44 +3,44 @@
 
 # TC006 – Verify Layout and Responsiveness of Chat Groups Section
 
-##Test Type##  
+## TestType ## 
 Functional / UI
 
-##Preconditions##  
+## Preconditions ##  
 - User is logged in  
 - User has access to the chat dashboard  
 
-##Test Steps##  
+## Test Steps ##  
 1. Navigate to the chat application (NDA placeholder)  
 2. Log in with valid credentials  
 3. Open the chat dashboard  
 4. Verify the alignment of the Chat Groups list and the "+ Add" button  
 5. Resize the browser window to different screen sizes  
 
-##Expected Result##  
+## Expected Result ##  
 - Chat Groups list and "+ Add" button remain properly aligned  
 - Layout remains responsive across different window sizes  
 - No UI elements overlap or become inaccessible  
 
-##Priority##  
+## Priority ##  
 Medium
 
-##Severity##  
+## Severity ##  
 Medium
 
 ---
 
 # TC007 – Verify SQL Injection Protection in PIN Verification Field
 
-##Test Type##  
+## Test Type ##  
 Security / Functional
 
-##Preconditions##  
+## Preconditions ##  
 - User is on the login page  
 - User has a registered email address  
 - User can receive a PIN via email  
 
-##Test Steps##  
+## Test Steps ##  
 1. Navigate to the login page (NDA placeholder)  
 2. Enter a valid email address and request a PIN  
 3. Receive the PIN via email  
@@ -208,6 +208,7 @@ will be active after saving.
 New Pop-Up is saved in the database, visible in the list, and active.  
 
 **Priority:** High  
+
 
 
 
