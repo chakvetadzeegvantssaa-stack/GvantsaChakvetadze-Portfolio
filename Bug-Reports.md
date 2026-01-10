@@ -46,6 +46,7 @@ While using the GetBot AI web extension, features that rely on asynchronous Chro
 **Possible Cause**
 The issue occurs when a chrome.runtime.onMessage listener returns true to indicate an asynchronous response but sendResponse() is not executed before the message channel closes. This may be caused by unhandled exceptions, missing response calls, popup closure, or race conditions.
 
+**Attachments:**  
 - [example-link.com](https://example-link.com)
 ---
 
@@ -111,6 +112,7 @@ This indicates that a document model was removed from the documents collection, 
 - Guard async logic to confirm the model is still part of the tree
 - Use onSnapshot or onPatch to debug lifecycle timing issues
 
+**Attachments:**  
 - [example-link.com](https://example-link.com)
 
 
@@ -315,6 +317,7 @@ This indicates that a document model was removed from the documents collection, 
 
 ## **Attachments**
 - None (NDA-compliant).
+
 
 
 
