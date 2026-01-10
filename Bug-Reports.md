@@ -46,7 +46,8 @@ While using the GetBot AI web extension, features that rely on asynchronous Chro
 **Possible Cause**
 The issue occurs when a chrome.runtime.onMessage listener returns true to indicate an asynchronous response but sendResponse() is not executed before the message channel closes. This may be caused by unhandled exceptions, missing response calls, popup closure, or race conditions.
 
-**Evidence** Screen recording: AI Plagiarism – 20 December 2025
+**Evidence**
+Screen recording: Jam – Console logs, network requests, and runtime errors
 ---
 
 
@@ -316,6 +317,7 @@ Screen recording: Jam – Console logs, network requests, and runtime errors
 
 ## **Attachments**
 - None (NDA-compliant).
+
 
 
 
