@@ -260,16 +260,12 @@ This indicates that a document model was removed from the documents collection, 
 **Environment:** Production 
 **Reproducibility:** 100%  
 
----
-
-## **Preconditions**
+**Preconditions**
 - User is not logged in.  
 - User has a valid email registered in the system.  
 - User has access to their email inbox to receive the PIN code.  
 
----
-
-## **Steps to Reproduce**
+**Steps to Reproduce**
 1. Navigate to [example-login.com](https://example-login.com) (placeholder for NDA).  
 2. Click **"Login"** or **"Sign In"**.  
 3. Enter a valid email address in the email field.  
@@ -280,30 +276,22 @@ This indicates that a document model was removed from the documents collection, 
 8. Begin typing the PIN code.  
 9. Observe the input as each digit is typed.  
 
----
-
-## **Actual Result**
+**Actual Result**
 - The PIN code appears in plain text (e.g., `123456`) in the verification input field.  
 - All digits are fully visible as they are typed.  
 - The sensitive credential is exposed on screen, allowing anyone nearby to see and memorize it.  
 
----
-
-## **Expected Result**
+**Expected Result**
 - The PIN code should be masked immediately upon entry (displayed as dots `••••••` or asterisks).  
 - Each typed character should be replaced by a masking symbol.  
 - The PIN code must never appear in plain text at any point.  
 - This ensures protection against shoulder surfing, screen recording, or accidental screenshots.  
 
----
-
-## **Impact**
+**Impact**
 - Exposing PIN codes creates a **security vulnerability**, as unauthorized users could access accounts by observing the screen.  
 - Masking sensitive authentication input is a **standard security requirement** for login flows.  
 
----
-
-## **Attachments**
+**Attachments**
 - None (screenshots omitted for NDA compliance).
 
 
@@ -321,14 +309,12 @@ This indicates that a document model was removed from the documents collection, 
 
 ---
 
-## **Preconditions**
+**Preconditions**
 - User is logged in.  
 - User has a file ready to upload.  
 - WiFi/network connection is turned OFF before attempting upload.  
 
----
-
-## **Steps to Reproduce**
+**Steps to Reproduce**
 1. Turn OFF WiFi / disable network connection.  
 2. Open [example-chat-app.com](https://example-chat-app.com) (placeholder for NDA).  
 3. Navigate to the chat section.  
@@ -337,17 +323,13 @@ This indicates that a document model was removed from the documents collection, 
 6. Turn WiFi back ON / restore network connection.  
 7. Observe if the upload starts automatically.  
 
----
-
-## **Actual Result**
+**Actual Result**
 - The system allows the upload attempt without showing an immediate error.  
 - No indication that the network is disconnected.  
 - Upload does not queue or resume automatically when connection is restored.  
 - Upload appears stuck, with no way for the user to proceed.  
 
----
-
-## **Expected Result**
+**Expected Result**
 - An immediate error message should display:  
   `"No network connection. Please check your internet and try again."`  
   **OR**  
@@ -355,16 +337,13 @@ This indicates that a document model was removed from the documents collection, 
 - Users should receive clear feedback about network status.  
 - No credits or resources should be deducted for failed upload attempts.  
 
----
-
-## **Impact**
+**Impact**
 - Users may think the file is uploaded successfully, leading to confusion or potential data loss.  
 - Poor UX and lack of feedback reduces trust in the platform.  
 
----
-
-## **Attachments**
+**Attachments**
 - None (NDA-compliant).
+
 
 
 
