@@ -1,6 +1,50 @@
 # QA Bug Reports – Portfolio
 
 ---
+# Title: Failed to fetch dynamically imported module (tts-layout.js) on network failure
+URL: https://getbot.ai
+
+**Error:**
+Failed to fetch dynamically imported module:
+https://getbot.ai/js/tts-layout.js
+
+**Description:**
+When the network connection fails or becomes unstable, the application
+crashes due to an unhandled dynamic import error. The app does not recover
+automatically once the network connection is restored.
+   
+**Steps to Reproduce:**
+1. Open https://getbot.ai
+2. Disconnect from the internet or simulate offline mode
+3. Refresh the page or navigate within the app
+
+**Actual Result:**
+Application crashes
+Blocking error screen is displayed
+User cannot continue using the application
+
+**Expected Result:**
+Application should handle network failures gracefully
+Dynamic imports should retry after network is restored
+UI should not fully crash due to temporary connectivity issues
+
+**Frequency:**
+100% reproducible
+
+**Environment:**
+Test Device – Dell Laptop, Inspiron 5537, DESKTOP-0OJ9KTC
+Operating System – Microsoft Windows 10 Home
+Version – 10.0.19045 Build 19045
+Browser – Google Chrome, Version 140.0.7339.128 (Official Build) (64-bit)
+Reproduction Frequency – 100%
+
+#Impact:**
+Blocks entire application
+No recovery without full page reload
+Poor UX in real-world network conditions
+
+
+
 # 1. Async Message Listener Fails, Preventing AI Prediction & Plagiarism Results
 
 **Browser:** Google Chrome 140.0.7339.128 (64-bit)  
@@ -317,6 +361,7 @@ This indicates that a document model was removed from the documents collection, 
 
 ## **Attachments**
 - None (NDA-compliant).
+
 
 
 
