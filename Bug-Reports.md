@@ -32,20 +32,24 @@ UI should not fully crash due to temporary connectivity issues
 100% reproducible
 
 **Environment:**
-Test Device – Dell Laptop, Inspiron 5537, DESKTOP-0OJ9KTC
-Operating System – Microsoft Windows 10 Home
-Version – 10.0.19045 Build 19045
-Browser – Google Chrome, Version 140.0.7339.128 (Official Build) (64-bit)
-Reproduction Frequency – 100%
+**Browser:** Google Chrome 140.0.7339.128 (64-bit)  
+**OS:** Windows 10 Home  
+**Device:** Dell Laptop, Inspiron 5537  
+**Page:** Add option  
+**Type:** Non-Functional  
+**Priority:** Medium 
+**Severity:** Medium 
+**Environment:** Production 
+**Reproducibility:** 100%
 
-#Impact:**
+**Impact:**
 Blocks entire application
 No recovery without full page reload
 Poor UX in real-world network conditions
 
+---
 
-
-# 1. Async Message Listener Fails, Preventing AI Prediction & Plagiarism Results
+#  Async Message Listener Fails, Preventing AI Prediction & Plagiarism Results
 
 **Browser:** Google Chrome 140.0.7339.128 (64-bit)  
 **OS:** Windows 10 Home  
@@ -95,7 +99,7 @@ The issue occurs when a chrome.runtime.onMessage listener returns true to indica
 ---
 
 
-# 2. MobX-State-Tree Error Occurs When Accessing a Document Model After It Has Been Removed from the State Tree
+#  MobX-State-Tree Error Occurs When Accessing a Document Model After It Has Been Removed from the State Tree
 
 **Browser:** Google Chrome 140.0.7339.128 (64-bit)  
 **OS:** Windows 10 Home  
@@ -162,7 +166,7 @@ This indicates that a document model was removed from the documents collection, 
 
 ---
 
-# 3. Images Missing Alt Text
+#  Images Missing Alt Text
 
 **Browser:** Google Chrome 140.0.7339.128 (64-bit)  
 **OS:** Windows 10 Home  
@@ -189,7 +193,7 @@ This indicates that a document model was removed from the documents collection, 
 
 ---
 
-# 4. Footer Email Button Not Functioning
+#  Footer Email Button Not Functioning
 
 **Browser:** Google Chrome 140.0.7339.128 (64-bit)  
 **OS:** Windows 10 Home  
@@ -217,7 +221,7 @@ This indicates that a document model was removed from the documents collection, 
 
 ---
 
-# 5. SyntaxError During Crisp Chat Integration
+#  SyntaxError During Crisp Chat Integration
 
 **Browser:** Google Chrome 140.0.7339.128 (64-bit)  
 **OS:** Windows 10 Home  
@@ -244,7 +248,7 @@ This indicates that a document model was removed from the documents collection, 
 - [example-link.com](https://example-link.com)
 
 
-# 6. Security Issue: PIN Code Not Masked During Login
+#  Security Issue: PIN Code Not Masked During Login
 
 **Type:** Security Vulnerability  
 **Platform:** Web  
@@ -303,7 +307,7 @@ This indicates that a document model was removed from the documents collection, 
 - None (screenshots omitted for NDA compliance).
 
 
-# 7. File Upload Without Network Connection
+#  File Upload Without Network Connection
 
 **Type:** Functional / UX Issue  
 **Platform:** Web  
@@ -361,6 +365,7 @@ This indicates that a document model was removed from the documents collection, 
 
 ## **Attachments**
 - None (NDA-compliant).
+
 
 
 
